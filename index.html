@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Nexus</title>
+</head>
+
+<body class=" fa-font-inter">
+
+    <header class="w-10/12 m-auto flex justify-between items-center py-5 max-sm:justify-between w-11/12">
+        <div class="flex gap-2 items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-hexagon-fill bg-[#F97316] text-white w-9 h-9 p-1 rounded-xl " viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866z" />
+            </svg>
+            <h1 class="text-2xl font-bold ">Nexus</h1>
+        </div>
+        <ul class="flex gap-3 text-[#4B5563] max-sm:hidden">
+            <li>Features</li>
+            <li>Solutions</li>
+            <li>Customers</li>
+            <li>Pricing</li>
+        </ul>
+        <div class="flex gap-3 max-sm:hidden ">
+            <button>Sign in</button>
+            <button class="py-1 px-3 rounded-md bg-[#F97316] text-white ">Get started</button>
+        </div>
+        <div class="block sm:hidden md:hidden">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    <main>
+        <!-- hero section start -->
+        <section class="w-10/12 m-auto grid gap-5 text-center py-10">
+            <div class="flex gap-2 px-2 rounded-xl  m-auto items-center text-[#F97316] justify-center bg-[#FFF7ED]">
+                <i class="fa-solid fa-circle text-sm "></i>
+                <h3 class="text-md font-semibold">New: AI-powered insights</h3>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <h1 class="text-8xl font-bold text-[#F97316] max-sm:text-4xl">The operating system for
+                modern product teams</h1>
+            <p class="text-[#4B5563] ">
+                Align your team, streamline your workflow, and ship products faster.
+                Nexus brings your entire product lifecycle into one unified workspace.
+            </p>
+            <div class="flex justify-center gap-5 max-sm:grid">
+                <button class="py-2 px-5 bg-[#F97316] text-white rounded-md">Start free trial</button>
+                <button class="border border-[#E5E7EB] py-2 px-5 rounded-md">
+                    <i class="fa-solid fa-play"></i>
+                    Watch demo
+                </button>
+            </div>
+        </section>
+        <!-- hero section end -->
+        <!-- Stats Section start -->
+        <section class="bg-[#F9FAFB]">
+            <div class="w-8/12 m-auto grid grid-cols-4 max-sm:grid-cols-2 text-center py-5 ">
+                <div class="grid gap-2">
+                    <h1 class="text-4xl text-[#F97316] font-bold">10M+</h1>
+                    <p class="text-[#4B5563]">Active users</p>
+                </div>
+                <div class="grid gap-2">
+                    <h1 class="text-4xl text-[#F97316] font-bold">99.9%</h1>
+                    <p class="text-[#4B5563]">Uptime SLA</p>
+                </div>
+                <div class="grid gap-2">
+                    <h1 class="text-4xl text-[#F97316] font-bold">150+</h1>
+                    <p class="text-[#4B5563]">Countries</p>
+                </div>
+                <div class="grid gap-2">
+                    <h1 class="text-4xl text-[#F97316] font-bold">4.9/5</h1>
+                    <p class="text-[#4B5563]">Customer rating</p>
+                </div>
+            </div>
+        </section>
+        <!-- Stats Section end -->
+        <!-- Powerful Features start -->
+        <section class="w-10/12 m-auto py-5">
+            <div class="text-center py-3 grid gap-3">
+                <h3 class="text-[#F97316] text-sm font-semibold">Powerful Features</h3>
+                <h1 class="text-5xl font-bold pb-2 max-sm:text-2xl">Everything you need to scale</h1>
+                <p class="text-[#4B5563] text-md">We've built all the core primitives so you can focus on what matters:
+                    building a
+                    great product.</p>
+            </div>
+            <div class="grid grid-cols-3 gap-5 max-sm:grid-cols-1">
+                <div class="grid gap-3 p-5 border border-[#F3F4F6] rounded-xl shadow">
+                    <div>
+                        <i class="fa-solid fa-bolt p-3 text-xl bg-[#FFF7ED] text-[#F97316] rounded-xl"></i>
+                    </div>
+                    <h1 class="text-xl font-semibold">Lightning fast</h1>
+                    <p>Built on a modern edge architecture,
+                        Nexus delivers sub-100ms response
+                        times globally.</p>
+                </div>
+                <div class="grid gap-3 p-5 border border-[#F3F4F6] rounded-xl shadow">
+                    <div>
+                        <i class="fa-solid fa-phone p-3 text-xl bg-[#FFF7ED] text-[#F97316] rounded-xl"></i>
+                    </div>
+                    <h1 class="text-xl font-semibold">Automated workflows</h1>
+                    <p>Connect your favorite tools and
+                        automate repetitive tasks with our visual
+                        builder.</p>
+                </div>
+                <div class="grid gap-3 p-5 border border-[#F3F4F6] rounded-xl shadow">
+                    <div>
+                        <i
+                            class="fa-solid fa-square-poll-vertical p-3 text-xl bg-[#FFF7ED] text-[#F97316] rounded-xl"></i>
+                    </div>
+                    <h1 class="text-xl font-semibold">Advanced analytics</h1>
+                    <p>Get deep insights into your product
+                        usage with customizable dashboards
+                        and reports.</p>
+                </div>
+                <div class="grid gap-3 p-5 border border-[#F3F4F6] rounded-xl shadow">
+                    <div>
+                        <i class="fa-solid fa-shield p-3 text-xl bg-[#FFF7ED] text-[#F97316] rounded-xl"></i>
+                    </div>
+                    <h1 class="text-xl font-semibold">Enterprise security</h1>
+                    <p>Bank-grade encryption, SOC2
+                        compliance, and granular role-based
+                        access controls.</p>
+                </div>
+                <div class="grid gap-3 p-5 border border-[#F3F4F6] rounded-xl shadow">
+                    <div>
+                        <i class="fa-solid fa-earth-americas p-3 text-xl bg-[#FFF7ED] text-[#F97316] rounded-xl"></i>
+                    </div>
+                    <h1 class="text-xl font-semibold">Global by default</h1>
+                    <p>Deploy your workspace across 35+
+                        regions instantly with automatic data
+                        localization.</p>
+                </div>
+                <div class="grid gap-3 p-5 border border-[#F3F4F6] rounded-xl shadow">
+                    <div>
+                        <i class="fa-regular fa-message p-3 text-xl bg-[#FFF7ED] text-[#F97316] rounded-xl"></i>
+                    </div>
+                    <h1 class="text-xl font-semibold">Real-time collaboration</h1>
+                    <p>Work together seamlessly with
+                        multiplayer editing, comments, and
+                        instant notifications.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Powerful Features end -->
+        <!-- Features Section product management start -->
+        <section class="w-10/12 m-auto grid py-5">
+            <div class="grid grid-cols-2 gap-5 py-5 items-center max-sm:grid-cols-1">
+                <div class="grid gap-5">
+                    <h3 class="text-[#F97316] font-semibold">Product Management</h3>
+                    <h1 class="text-2xl font-bold max-sm:text-xl">Align your entire organization</h1>
+                    <p class="text-[#4B5563]">Keep everyone on the same page with centralized roadmaps,
+                        PRDs, and goal tracking. Connect strategy to execution
+                        seamlessly.</p>
+                    <ul class="grid gap-1">
+                        <li>
+                            <i class="fa-regular fa-circle-check text-[#F97316]"></i>
+                            Interactive roadmaps and timelines
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check text-[#F97316]"></i>
+                            Integrated OKR tracking
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check text-[#F97316]"></i>
+                            Automated status updates
+                        </li>
+                    </ul>
+                    <p class="text-[#F97316] font-semibold">
+                        Learn more about product management
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </p>
+                </div>
+                <div class="align-center">
+                    <img class="rounded-xl" src="asset/Image (1).png" alt="">
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-5 py-5 items-center max-sm:grid-cols-1">
+                <div>
+                    <img class="rounded-xl" src="asset/Image.png" alt="">
+                </div>
+                <div class="grid gap-5">
+                    <h3 class="text-[#F97316] font-semibold">Engineering</h3>
+                    <h1 class="text-2xl font-bold max-sm:text-xl">Ship faster with less friction</h1>
+                    <p class="text-[#4B5563]">Integrate directly with your Git provider to track deployments,
+                        manage sprints, and resolve issues without leaving the platform.</p>
+                    <ul class="grid gap-1">
+                        <li>
+                            <i class="fa-regular fa-circle-check text-[#F97316]"></i>
+                            Two-way GitHub/GitLab sync
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check text-[#F97316]"></i>
+                            Automated sprint planning
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-circle-check text-[#F97316]"></i>
+                            Velocity tracking and insights
+                        </li>
+                    </ul>
+                    <p class="text-[#F97316] font-semibold">
+                        Learn more about product management
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Features Section product management end -->
+        <!-- Loved by product teams start -->
+        <section class="w-10/12 m-auto ">
+            <div class="text-center py-3">
+                <h1 class="text-3xl font-bold  max-sm:text-2xl">Loved by product teams</h1>
+                <p class="text-[#374151]">Don't just take our word for it. See what our customers have to say.</p>
+            </div>
+            <div class="grid grid-cols-3 gap-5 py-7 max-sm:grid-cols-1">
+                <div class="grid gap-4 p-2 shadow rounded-xl">
+                    <div class="flex gap-1 text-[#F97316]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-[#374151]">
+                        "The interface is incredibly intuitive.
+                        It's the first tool our entire company
+                        actually enjoys using. The analytics
+                        are a game-changer.""
+                    </p>
+                    <div class="flex gap-3 items-center">
+                        <i class="fa-solid fa-circle text-4xl text-[#D1D6DB]"></i>
+                        <div>
+                            <h1>Sarah Chen</h1>
+                            <h2 class="text-[#6B7280]">VP of Product, TechFlow</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid gap-4 p-2 shadow rounded-xl">
+                    <div class="flex gap-1 text-[#F97316]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-[#374151]">
+                        "The interface is incredibly intuitive.
+                        It's the first tool our entire company
+                        actually enjoys using. The analytics
+                        are a game-changer."
+                    </p>
+                    <div class="flex gap-3 items-center">
+                        <i class="fa-solid fa-circle text-4xl text-[#D1D6DB]"></i>
+                        <div>
+                            <h1>Marcus Rodriguez</h1>
+                            <h2 class="text-[#6B7280]">CTO, DataScale</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid gap-4 p-2 shadow rounded-xl">
+                    <div class="flex gap-1 text-[#F97316]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-[#374151]">
+                        "We evaluated dozens of platforms,
+                        but Nexus stood out for its clean
+                        design and powerful automation
+                        capabilities. Worth every penny."
+                    </p>
+                    <div class="flex gap-3 items-center">
+                        <i class="fa-solid fa-circle text-4xl text-[#D1D6DB]"></i>
+                        <div>
+                            <h1>Emily Watson</h1>
+                            <h2 class="text-[#6B7280]">Operations Lead, GrowthCo</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Loved by product teams end -->
+        <!-- Ready to streamline your workflow start -->
+        <section
+            class="bg-[url('/asset/image5.png')] bg-cover bg-center bg-no-repeat w-8/12 my-5
+             mx-auto rounded-xl text-white text-center grid gap-5 py-8 max-sm:w-10/12 ">
+            <h1 class="text-4xl font-bold max-sm:text-2xl ">
+                Ready to streamline your
+                workflow?
+            </h1>
+            <p class="text-[#9CA3AF] px-5">
+                Join thousands of teams already using Nexus to build better products, faster.
+                Start your 14-day free trial today. No credit card required.
+            </p>
+            <div class="max-sm:grid gap-2 w-10/12 m-auto">
+                <button class="py-2 px-5 bg-[#F97316] rounded-xl ">Get started for free</button>
+                <button class="py-2 px-5 bg-[#9CA3] rounded-xl">Talk to sales</button>
+            </div>
+        </section>
+        <!-- Ready to streamline your workflow end -->
+    </main>
+
+    <footer class="w-10/12 m-auto py-5 flex gap-5 max-sm:grid ">
+        <div class="w-4/10 auto grid gap-3">
+            <div class="flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-hexagon-fill bg-[#F97316] text-white w-9 h-9 p-1 rounded-xl " viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866z" />
+                </svg>
+                <h1 class="text-2xl font-bold">Nexus</h1>
+            </div>
+            <p class="text-[#6B7280]">
+                The modern operating system for product
+                teams. Build, ship, and scale with
+                confidence.
+            </p>
+            <div class="text-[#6B7280] flex gap-3">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+        <div class="w-6/10 auto grid grid-cols-3 gap-3 max-sm:grid-cols-2 w-10/10 ">
+            <div>
+                <h1 class="py-2 font-bold">Product</h1>
+                <ul class="grid gap-2 text-[#6B7280]">
+                    <li>Features</li>
+                    <li>Integrations</li>
+                    <li>Pricing</li>
+                    <li>Changelog</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="py-2 font-bold">Company</h1>
+                <ul class="grid gap-2 text-[#6B7280]">
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="py-2 font-bold">Legal</h1>
+                <ul class="grid gap-2 text-[#6B7280]">
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Cookie Policy</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/1f87d08519.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
